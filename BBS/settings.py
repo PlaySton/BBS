@@ -138,4 +138,3 @@ LOGIN_URL = '/login/'
 AUTH_USER_MODEL = 'app01.UserInfo'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-

@@ -29,7 +29,7 @@ urlpatterns = [
     path('get_code/', views.get_code, name='get_code'),
 
     # 首页
-    re_path(r'^$',views.home, name='home'),
+    re_path(r'^$', views.home, name='home'),
 
     # 点赞点踩
     path('up_down/', views.up_down, name='up_down'),
@@ -72,7 +72,5 @@ urlpatterns = [
 
     # 文章详情页
     re_path(r'^(?P<username>\w+)/article/(?P<article_id>\d+)/', views.article_detail, name='article_detail'),
-
-
 
 ]
